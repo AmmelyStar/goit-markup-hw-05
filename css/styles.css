@@ -801,14 +801,15 @@ ter*/
     padding-left: 16px;
     font-size: 12px;
     font-family: Roboto;
-    line-height: 2;
     letter-spacing: 0.48px;
+    line-height: 1.5;
     width: 264px;
     height: 40px;
     background-color: transparent;
     border-radius: 4px;
     border: 1px solid  #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color: white;
 }
 
 .input-footer::placeholder{
@@ -822,6 +823,7 @@ ter*/
 }
 
 .btn-footer{
+    font-family: "Roboto";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -829,7 +831,6 @@ ter*/
     background:  #4D5AE5;
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
