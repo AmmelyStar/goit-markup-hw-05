@@ -780,25 +780,39 @@ ter*/
 .email-form{
     display: flex;
     align-items: center;
-    padding-left: 80px;
+    gap: 24px;
+    
 }
 
-.subscribe{
+.form-title{
     font-family: Roboto;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: white;
+    margin-bottom: 16px;
+}
+
+.label-form{
+
 }
 
 .input-footer{
-    margin-top: 16px;
-    margin-right: 24px;
+    padding-left: 16px;
+    font-size: 12px;
+    font-family: Roboto;
+    line-height: 2;
+    letter-spacing: 0.48px;
     width: 264px;
     height: 40px;
+    background-color: transparent;
     border-radius: 4px;
     border: 1px solid  #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.input-footer::placeholder{
+    color: white;
 }
 
 .input-footer:hover,
@@ -808,7 +822,9 @@ ter*/
 }
 
 .btn-footer{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
     background:  #4D5AE5;
     color: #FFF;
@@ -817,10 +833,14 @@ ter*/
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    width: 117px;
-    height: 24px;
+    min-width: 165px;
+    height: 40px;
     margin-bottom: 132px;
     
+}
+
+.svg-footer{
+    margin-left: 16px;
 }
 
 
