@@ -1001,11 +1001,11 @@ ter*/
     
 }
 
-input:focus .modal-svg{
+.input-modal:focus + .modal-svg{
     fill: #4D5AE5;
 }
 
-.input-chekbox:checked span{
+.input-chekbox:checked + .privacy .svg-span{
     background-color:#404bbf;
     border: none;
     fill: #F4F4FD;
@@ -1013,6 +1013,7 @@ input:focus .modal-svg{
 
 .chekbox-link{
     color: #4d5ae5;
+    text-decoration: underline;
 }
 
 
