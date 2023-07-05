@@ -945,9 +945,6 @@ ter*/
 
 }
 
-.input-modal:focus .modal-svg{
-    fill: #4D5AE5;
-}
 
 .textarea-container{
     margin-bottom: 16px;
@@ -1002,6 +999,10 @@ ter*/
     justify-content: center;
     fill: transparent;
     
+}
+
+input:focus .modal-svg{
+    fill: #4D5AE5;
 }
 
 .input-chekbox:checked span{
