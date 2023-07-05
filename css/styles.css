@@ -1020,6 +1020,7 @@ ter*/
 .btn-modal-send{
     font-family: "Roboto", sans-serif;
     display: block;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     font-size: 16px;
